@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "appointment-1203"
+  },
+  "targets": {
+    "appointment-1203": {
+      "hosting": {
+        "AppointmentManager": [
+          "appointment-1203"
+        ]
+      }
+    }
+  }
+}
