@@ -20,13 +20,21 @@ import { FooterComponent } from './footer/footer.component';
 import { USE_EMULATOR as USE_AUTH_EMULATOR } from '@angular/fire/compat/auth';
 import { USE_EMULATOR as USE_FIRESTORE_EMULATOR } from '@angular/fire/compat/firestore';
 import { USE_EMULATOR as USE_FUNCTIONS_EMULATOR } from '@angular/fire/compat/functions';
+import { HomeComponent } from './body/home/home.component';
+import { LoginComponent } from './body/login/login.component';
+import { RegisterComponent } from './body/register/register.component';
+import { DashboardComponent } from './body/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BodyComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
